@@ -1,0 +1,54 @@
+body {
+    background-color: #1e2d45;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px 10% 0 10%;
+}
+
+#profile {
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+ul {
+    font-size: 1.2em;
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+img {
+    border-radius: 2%;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+    border-radius: 5px;   
+}
+
+.nav-item {
+    display: inline;
+    color: #1e2d45;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue
+}
+
