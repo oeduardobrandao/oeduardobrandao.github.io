@@ -49,6 +49,7 @@ img {
 .links {
     text-decoration: none;
     font-weight: bold;
-    color: aliceblue
+    color: aliceblue;
+    list-style-type: none;
 }
 
