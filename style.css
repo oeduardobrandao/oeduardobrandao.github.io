@@ -1,5 +1,6 @@
 body {
-    background-color: #1e2d45;
+    background: rgb(2,0,36);
+    background: linear-gradient(122deg, rgba(2,0,36,1) 20%, rgba(15,15,61,1) 50%, rgba(99,23,23,1) 100%);
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 30px 10% 0 10%;
@@ -7,6 +8,7 @@ body {
 
 #profile {
     text-align: center;
+    margin-top: 80px;
 }
 
 h3 {
@@ -32,8 +34,7 @@ img {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: aliceblue;
-    border-radius: 5px;   
+    background: aliceblue, 0.7;
 }
 
 .nav-item {
@@ -44,6 +45,10 @@ img {
     text-decoration: none;
     align-items: flex-start;
     font-weight: bold;
+}
+
+#link {
+    margin: 80px 0 30x 0;
 }
 
 .links {
