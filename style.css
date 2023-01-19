@@ -54,9 +54,9 @@ h3 {
     display: inline-block;
     color: #d3968b;
     text-align: left;
-    padding: 10px 20px;
+    padding: 10px 8px;
     text-decoration: none;
-    align-items: flex-start;
+    font-size: 14px;
     font-weight: 100;
     list-style: none;
 }
