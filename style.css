@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: rgb(2,0,36);
     background: linear-gradient(122deg, rgba(2,0,36,1) 20%, rgba(15,15,61,1) 50%, rgba(99,23,23,1) 100%);
@@ -14,6 +20,18 @@ body {
 
 li {
     list-style-type: none;
+    padding: 6px;
+}
+
+h1 {
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #nav-bar {
@@ -25,6 +43,11 @@ li {
     top: 0%;
     width: 100%;
     z-index: 1;
+}
+
+#nav-bar ul {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .nav-item {
@@ -40,7 +63,7 @@ li {
 
 #profile {
     text-align: center;
-    margin: 100px 0 20px 0;
+    margin: 140px 0 20px 0;
     height: 320px;
     font-size: 16px;
 }
@@ -75,12 +98,6 @@ div p {
     vertical-align: middle;
 }
 
-h3 {
-    font-size: 2em;
-    text-align: center;
-    font-weight: 100;
-}
-
 ul {
     font-size: 1.2em;
     line-height: 1.5em;
@@ -96,9 +113,20 @@ p {
     margin: 500px 0 10x 0;    
 }
 
-#habilidades, #hobbies, #projetos {
+#habilidades{
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 50px;
+}
+
+#hobbies, #projetos {
+    margin: 50px auto;
+    width: fit-content;
+    text-align: left;
+}
+
+#hobbies li {
+    padding: 6px;
 }
 
 .links {
@@ -108,13 +136,12 @@ p {
     display: inline;
     padding: 5px;
     text-align: center;
-    border: #d3968b;
+    transition: border 0.5s, color 0.5s;
 }
 
 .links:hover {
-    border-style: solid;
-    border-width: 0.5px;
-    border-radius: 5px;
+    border: 0.5px solid #d3968b;
+    border-radius: 4px;
     color: #d3968b;
     
 }
