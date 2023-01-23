@@ -115,9 +115,9 @@ header img {
 
 #name-icons h3 {
     font-size: 24px;
-    width: 300px;
+    width: 100%;
     clear: both;
-    display: block;
+    display: ;
 }
 
 #profile h3 a {
